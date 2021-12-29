@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Mochiy+Pop+P+One&display=swap');
+
+body{
+    background-color: #b7e4c7;
+}
+h2{
+    font-family: 'Caveat', 'cursive';
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 95vh;
+}
+.calculator{
+    background-color: rgba(0, 0, 0, 0.719);
+    padding: 10px;
+    height: 264px;
+    padding-top: 52px;
+    border-radius: 5px;
+}
+input{
+    outline: none;
+    height: 25px;
+    margin-bottom: 8px;
+    text-align: end;
+    border-radius: 5px;
+    font-weight: bold;
+}
+table{
+    margin: auto;
+}
+
+button{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(150, 150, 150);
+    color: white;
+}
+button:hover{
+    background-color: rgb(114, 114, 114);
+}
+.orange{
+    background-color: tomato;
+}
+.orange:hover{
+    background-color: rgb(255, 46, 46);
+
+}
